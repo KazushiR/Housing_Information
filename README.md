@@ -1,2 +1,2 @@
 # Housing_Information
-This goes get housing information from RAPID API and turns out the necessary information as an email format.
+This script gets information from https://rapidapi.com/datascraper/api/us-real-estate/ and from there, I send in requests to get house information from my local city and the detail of each house to send to via email.  
