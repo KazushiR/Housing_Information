@@ -103,8 +103,3 @@ def Email_table(house_information_dictionary): #This function gets the dictionar
     msg.attach(part1) #Attaches the html as a message
     server.sendmail(sender_email, receiver_email, msg.as_string()) #Turns the message into a string and sends the email out.
     server.quit()
-
-info = housing_info()
-housing_information = housing_information(info)
-house_information_dictionary = individual_housing_info(housing_information[0], housing_information[1])
-Email_table(house_information_dictionary)
